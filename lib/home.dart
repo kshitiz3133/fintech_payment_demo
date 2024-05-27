@@ -24,12 +24,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Send Money"),
+      ),
       body: Center(
         child: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               flag? A:Text("₹100",style: TextStyle(fontWeight: FontWeight.w700,fontSize: 40),),
+              SizedBox(height: 20,),
               ElevatedButton(onPressed: (){
                 setState(() {
                   flag=true;
