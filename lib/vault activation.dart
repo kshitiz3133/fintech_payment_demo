@@ -33,7 +33,7 @@ class _ActivatorState extends State<Activator> {
                         openStore: false,
                       );
                     },
-                    child: Text("Activate Vaul")),
+                    child: Text("Activate Vault")),
               ],
             ),
             SizedBox(
@@ -81,7 +81,7 @@ Widget payment(BuildContext context) {
                             spreadRadius: 0.1,
                             blurRadius: 2)
                       ]),
-                    child: Center(child: Text("Card Payment",style: TextStyle(fontSize: 25),)),
+                    child: Center(child: Text("Card Payment",style: TextStyle(fontSize: 25,color: Colors.black),)),
                   ),
                 ),
               ),
@@ -101,7 +101,7 @@ Widget payment(BuildContext context) {
                             spreadRadius: 0.1,
                             blurRadius: 2)
                       ]),
-                    child: Center(child: Text("Send Money",style: TextStyle(fontSize: 28),)),
+                    child: Center(child: Text("Send Money",style: TextStyle(fontSize: 28,color: Colors.black),)),
                   ),
                 ),
               ),
@@ -117,7 +117,7 @@ Widget payment(BuildContext context) {
                           spreadRadius: 0.1,
                           blurRadius: 2)
                     ]),
-                  child: Center(child: Text("Self Transfer",style: TextStyle(fontSize: 25),)),
+                  child: Center(child: Text("Self Transfer",style: TextStyle(fontSize: 25,color: Colors.black),)),
                 ),
               ),
             ],
